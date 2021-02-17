@@ -64,7 +64,7 @@
         <div class="overlay">
           <div class="container hero-container">
             <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-            <a href="#" class="button">Заказать услугу</a>
+            <a href="#" class="button" data-modal-open>Заказать услугу</a>
           </div>
         </div>
       </section>
@@ -449,11 +449,12 @@
     <!-- Контакты -->
 
     <!--Модалка-->
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button"></button>
+        <button class="modal-button" data-modal-close></button>
       </div>
     </div>
     <!--/Модалка-->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
